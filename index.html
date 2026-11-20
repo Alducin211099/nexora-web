@@ -114,13 +114,19 @@
     <section class="section contact-section" id="contacto">
       <div class="container contact-grid">
         <div><div class="eyebrow">HABLEMOS DE TU PROYECTO</div><h2>Tu siguiente paso digital <span>comienza aquí.</span></h2><p>Cuéntanos brevemente qué necesitas. Prepararemos una propuesta inicial para tu negocio.</p><div class="contact-detail"><span>✉</span><div><b>Atención personalizada</b><small>Respondemos tus consultas por WhatsApp.</small></div></div></div>
-        <form class="contact-form" id="contactForm" aria-describedby="formNote">
+        <form class="contact-form" id="contactForm" aria-describedby="formNote privacyNote">
           <label for="name">Tu nombre</label><input id="name" name="name" type="text" autocomplete="name" placeholder="¿Cómo te llamas?" minlength="2" maxlength="80" required>
-          <label for="business">Nombre del negocio</label><input id="business" name="business" type="text" autocomplete="organization" placeholder="Nombre de tu empresa o proyecto" maxlength="100">
           <label for="service">¿Qué necesitas?</label><select id="service" name="service"><option value="Página web comercial">Página web comercial</option><option value="Catálogo digital">Catálogo digital</option><option value="Solución para academia">Solución para academia</option><option value="Otro proyecto">Otro proyecto</option></select>
-          <label for="message">Cuéntanos sobre tu proyecto</label><textarea id="message" name="message" rows="4" maxlength="1000" placeholder="¿Qué hace tu negocio y qué te gustaría lograr?"></textarea>
+          <label for="message">Describe brevemente lo que necesitas</label><textarea id="message" name="message" rows="4" maxlength="600" placeholder="¿Qué te gustaría consultar?" required minlength="10"></textarea>
           <button class="button button-primary submit-button" type="submit">Enviar consulta por WhatsApp ↗</button>
-          <p class="form-note" id="formNote" role="status" aria-live="polite">Al continuar, intentaremos abrir WhatsApp con el mensaje preparado. Revísalo antes de enviarlo.</p>
+          <p class="form-note" id="formNote" role="status" aria-live="polite">El mensaje se prepara en tu navegador. WhatsApp se abrirá solo si ya configuramos un número válido.</p>
+          <p class="privacy-note" id="privacyNote">La consulta no se guarda en este sitio ni se envía a un servidor de NEXORA. Si decides enviarla desde WhatsApp, la recibirán los servicios de WhatsApp. Revisa el mensaje antes de enviarlo.</p>
+          <!-- Publicar los enlaces solo cuando existan avisos revisados y aprobados.
+          <nav class="privacy-links" aria-label="Avisos de privacidad">
+            <a href="aviso-privacidad-integral.html">Aviso de privacidad integral</a>
+            <a href="aviso-privacidad-simplificado.html">Aviso de privacidad simplificado</a>
+          </nav>
+          -->
         </form>
       </div>
     </section>
