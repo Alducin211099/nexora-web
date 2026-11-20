@@ -15,11 +15,15 @@ Sitio comercial estático de una página para presentar el estudio digital NEXOR
 
 ## Configurar WhatsApp
 1. Abre `config.js`.
-2. Cambia `5210000000000` por tu número de WhatsApp con código de país, sin `+`, espacios ni guiones.
+2. Cuando exista un número comercial exclusivo, cambia `5210000000000` por `52` seguido exactamente de los 10 dígitos del número mexicano, sin `+`, espacios ni guiones. No compartas el número en conversaciones públicas.
 3. Guarda y vuelve a cargar `index.html`.
 4. Envía una consulta de prueba. Se abrirá WhatsApp con un mensaje preparado; el visitante debe enviarlo manualmente.
 
-El número de ejemplo incluido no funciona como destino real. Configura el número antes de publicar; el formulario acepta entre 10 y 15 dígitos, sin `+`, espacios ni guiones.
+El número de ejemplo incluido es ficticio y el formulario no abrirá WhatsApp con él. La validación exige exactamente `52` + 10 dígitos. Para probar, edita `config.js` localmente con tu número y no lo pegues en GitHub ni en chats; después prueba el formulario con datos ficticios y no envíes el mensaje.
+
+## Privacidad
+
+El formulario solo pide nombre, servicio y una breve consulta. El texto se construye en el navegador y no se envía a un servidor del sitio. Si el visitante decide enviar el mensaje desde WhatsApp, se comparte con ese servicio. El borrador interno `docs/privacidad-borrador.md` enumera servicios y datos pendientes; no es un aviso legal publicable.
 
 ## Verificar el sitio
 
