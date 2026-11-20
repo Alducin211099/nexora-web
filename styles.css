@@ -23,6 +23,8 @@ html{scroll-padding-top:84px}
 .contact-form label{font-size:12px}
 .contact-form input,.contact-form select,.contact-form textarea{font-size:16px}
 .pricing-note,.form-note{font-size:12px}
+.button,.service-card>a,.text-link,.nav-links a{touch-action:manipulation}
+.hero-visual[role="img"]{contain:layout paint}
 @media(max-width:760px){
   .nav-links a{min-height:44px}
   .menu-toggle{display:grid;place-items:center}
@@ -31,3 +33,4 @@ html{scroll-padding-top:84px}
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+

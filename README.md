@@ -36,6 +36,7 @@ El número de ejemplo incluido no funciona como destino real. Configura el núme
 - Añadir un correo real si se desea.
 - Probar todos los enlaces y el formulario.
 - Añadir aviso de privacidad y datos de contacto reales.
+- Antes de redactar el aviso de privacidad, confirmar quién será el responsable: nombre o razón social, domicilio de contacto, correo o medio para solicitudes, datos que se recaban, finalidades, conservación, transferencias/uso de WhatsApp y mecanismo para ejercer derechos. No publicar un aviso genérico como definitivo.
 - Revisa que el número de WhatsApp sea el destino correcto y que se muestre correctamente en el mensaje preparado.
 - Confirmar que los textos de planes, precios, alcance y condiciones sean los que NEXORA ofrecerá realmente.
 - No publicar información personal ni datos ficticios presentados como clientes reales.
@@ -45,6 +46,8 @@ El número de ejemplo incluido no funciona como destino real. Configura el núme
 - `styles.css`: diseño adaptable.
 - `script.js`: menú, formulario y comportamiento.
 - `config.js`: datos de configuración.
+- `favicon.svg`: icono vectorial del sitio, sin imágenes externas.
 
 ## Nota comercial
 Los precios incluidos son referencias de lanzamiento para pruebas internas. Confirmar alcance, costos externos, tiempos y condiciones antes de ofrecerlos a un cliente.
+

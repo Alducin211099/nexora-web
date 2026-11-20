@@ -4,20 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <meta name="description" content="NEXORA crea páginas web profesionales para negocios, emprendedores y academias en México.">
+  <meta name="description" content="Diseño y desarrollo web para negocios, profesionales y academias en México. Conoce los servicios y solicita una cotización a NEXORA.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="NEXORA">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NEXORA">
   <meta property="og:locale" content="es_MX">
   <meta property="og:title" content="NEXORA | Tu negocio, conectado al futuro">
-  <meta property="og:description" content="Creamos páginas web profesionales que explican lo que haces, generan confianza y ayudan a tus clientes a contactarte.">
+  <meta property="og:description" content="Diseño y desarrollo web para negocios, profesionales y academias en México. Conoce los servicios y solicita una cotización a NEXORA.">
   <meta name="twitter:card" content="summary">
   <meta name="format-detection" content="telephone=no">
   <meta name="theme-color" content="#0b1224">
   <title>NEXORA | Tu negocio, conectado al futuro</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="config.js" defer></script>
@@ -44,9 +45,9 @@
       <div class="hero-glow"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
-          <div class="eyebrow"><span class="pulse"></span> DISEÑO WEB PARA NEGOCIOS QUE QUIEREN CRECER</div>
+          <div class="eyebrow"><span class="pulse" aria-hidden="true"></span> DISEÑO WEB PARA NEGOCIOS Y ACADEMIAS</div>
           <h1>Tu negocio merece una <span>gran presencia digital.</span></h1>
-          <p class="hero-text">Creamos páginas web profesionales que explican lo que haces, generan confianza y ayudan a tus clientes a contactarte.</p>
+          <p class="hero-text">Diseñamos y desarrollamos páginas web para que tu negocio explique con claridad lo que ofrece y facilite el contacto con sus clientes.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#contacto">Quiero mi página web <span>↗</span></a>
             <a class="button button-ghost" href="#servicios">Conocer servicios</a>
@@ -75,9 +76,9 @@
       <div class="container">
         <div class="section-heading"><div class="eyebrow">LO QUE PODEMOS HACER</div><h2>Una presencia digital que <span>trabaja contigo.</span></h2><p>Soluciones claras para que tus clientes te encuentren, conozcan tus servicios y den el siguiente paso.</p></div>
         <div class="service-grid">
-          <article class="service-card"><div class="service-icon">▧</div><h3>Páginas web comerciales</h3><p>Presenta tu negocio con una web profesional, rápida y adaptable a celulares.</p><a href="#contacto">Quiero una página web <span>↗</span></a></article>
-          <article class="service-card"><div class="service-icon">◎</div><h3>Catálogos digitales</h3><p>Muestra tus productos o servicios de forma ordenada y facilita las consultas.</p><a href="#contacto">Crear mi catálogo <span>↗</span></a></article>
-          <article class="service-card"><div class="service-icon">⌘</div><h3>Soluciones para academias</h3><p>Herramientas digitales para presentar cursos y organizar la información de tu institución.</p><a href="#contacto">Digitalizar mi academia <span>↗</span></a></article>
+          <article class="service-card"><div class="service-icon" aria-hidden="true">▧</div><h3>Páginas web comerciales</h3><p>Organiza la información de tu negocio en una página adaptable a teléfonos y computadoras, con una ruta clara para que te contacten.</p><a href="#contacto">Consultar por una página <span aria-hidden="true">↗</span></a></article>
+          <article class="service-card"><div class="service-icon" aria-hidden="true">◎</div><h3>Catálogos digitales</h3><p>Presenta productos o servicios por categorías y ayuda a tus visitantes a encontrar la información que buscan.</p><a href="#contacto">Consultar por un catálogo <span aria-hidden="true">↗</span></a></article>
+          <article class="service-card"><div class="service-icon" aria-hidden="true">⌘</div><h3>Soluciones para academias</h3><p>Explica cursos, programas y datos institucionales en una estructura clara, pensada para las necesidades de tu academia.</p><a href="#contacto">Consultar por una solución <span aria-hidden="true">↗</span></a></article>
         </div>
       </div>
     </section>
@@ -113,13 +114,13 @@
     <section class="section contact-section" id="contacto">
       <div class="container contact-grid">
         <div><div class="eyebrow">HABLEMOS DE TU PROYECTO</div><h2>Tu siguiente paso digital <span>comienza aquí.</span></h2><p>Cuéntanos brevemente qué necesitas. Prepararemos una propuesta inicial para tu negocio.</p><div class="contact-detail"><span>✉</span><div><b>Atención personalizada</b><small>Respondemos tus consultas por WhatsApp.</small></div></div></div>
-        <form class="contact-form" id="contactForm">
+        <form class="contact-form" id="contactForm" aria-describedby="formNote">
           <label for="name">Tu nombre</label><input id="name" name="name" type="text" autocomplete="name" placeholder="¿Cómo te llamas?" minlength="2" maxlength="80" required>
           <label for="business">Nombre del negocio</label><input id="business" name="business" type="text" autocomplete="organization" placeholder="Nombre de tu empresa o proyecto" maxlength="100">
           <label for="service">¿Qué necesitas?</label><select id="service" name="service"><option value="Página web comercial">Página web comercial</option><option value="Catálogo digital">Catálogo digital</option><option value="Solución para academia">Solución para academia</option><option value="Otro proyecto">Otro proyecto</option></select>
           <label for="message">Cuéntanos sobre tu proyecto</label><textarea id="message" name="message" rows="4" maxlength="1000" placeholder="¿Qué hace tu negocio y qué te gustaría lograr?"></textarea>
           <button class="button button-primary submit-button" type="submit">Enviar consulta por WhatsApp ↗</button>
-          <p class="form-note" id="formNote" role="status">Al enviar, se abrirá WhatsApp con tu mensaje preparado. Podrás revisarlo antes de enviarlo.</p>
+          <p class="form-note" id="formNote" role="status" aria-live="polite">Al continuar, intentaremos abrir WhatsApp con el mensaje preparado. Revísalo antes de enviarlo.</p>
         </form>
       </div>
     </section>
@@ -128,3 +129,4 @@
   <footer class="footer"><div class="container footer-inner"><a class="brand" href="#inicio"><span class="brand-mark">N</span><span>NEXORA<span class="brand-dot">.</span></span></a><p>Tu negocio, conectado al futuro.</p><small>© <span id="year"></span> NEXORA. Marca provisional; datos de contacto por configurar.</small></div></footer>
 </body>
 </html>
+
